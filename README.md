@@ -39,5 +39,5 @@ make bin/arb
 
 联系方式：
 --
-![套利效果](./resources/img/wechat.jpeg)
+![联系方式](./resources/img/wechat.jpeg)
 
