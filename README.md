@@ -37,3 +37,7 @@ make bin/arb
 ./bin/arb test
 ```
 
+联系方式：
+--
+![联系方式](./resources/img/wechat.jpeg)
+
