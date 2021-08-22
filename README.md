@@ -36,3 +36,8 @@ go get
 make bin/arb
 ./bin/arb test
 ```
+
+联系方式：
+--
+![套利效果](./resources/img/wechat.jpeg)
+
