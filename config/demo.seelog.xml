@@ -1,0 +1,27 @@
+<seelog minlevel="debug">
+    <outputs>
+        <filter levels="debug">
+            <rollingfile formatid="info" type="size" filename="logs/debug.log" maxsize="536870912" maxrolls="2"/>
+        </filter>
+        <filter levels="info">
+            <rollingfile formatid="info" type="size" filename="logs/info.log" maxsize="536870912" maxrolls="2"/>
+            <console formatid="console"/>
+        </filter>
+        <filter levels="warn">
+            <rollingfile formatid="warn" type="size" filename="logs/warn.log" maxsize="536870912" maxrolls="2"/>
+            <console formatid="console"/>
+        </filter>
+        <filter levels="error,critical">
+            <rollingfile formatid="error" type="size" filename="logs/error.log" maxsize="536870912" maxrolls="2"/>
+            <console formatid="console"/>
+        </filter>
+    </outputs>
+    <formats>
+        <format id="debug" format="%Time %Date %Proc [%Level] %File:%Func %Line |> %Msg%n"/>
+        <format id="info" format="%Time %Date %Proc [%Level] %File:%Func %Line |> %Msg%n"/>
+        <format id="error" format="%Time %Date %Proc [%Level] %File:%Func %Line |> %Msg%n"/>
+        <format id="warn" format="%Time %Date %Proc [%Level] %File:%Func %Line |> %Msg%n"/>
+        <format id="console" format="%Time [%Level] %Msg%n"/>
+    </formats>
+</seelog>
+

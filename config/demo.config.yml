@@ -1,0 +1,11 @@
+cache_timeout: 5m
+db:
+  name: ubuntu
+  pass: ubuntu
+eos:
+  api_endpoint: https://eospush.tokenpocket.pro
+#  api_endpoint: https://eos.hyperion.eosrio.io
+accounts:
+  default:
+    private_key:
+    name:
